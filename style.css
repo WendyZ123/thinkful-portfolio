@@ -20,13 +20,13 @@ h2{
   font-size: 2em;
 }
 
-body > header, 
-body > footer{
+header, 
+footer {
   text-align: center;
 }
 
-nav > a {
-  margin-inline: 10px;
+section > footer {
+  text-align: left;
 }
 
 a{
@@ -35,6 +35,10 @@ a{
 
 a:hover{
   color: #f77f00;
+}
+
+nav > a {
+  margin-inline: 10px;
 }
 
 article {
