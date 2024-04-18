@@ -20,9 +20,13 @@ h2{
   font-size: 2em;
 }
 
-header, 
-footer{
+body > header, 
+body > footer{
   text-align: center;
+}
+
+nav > a {
+  margin-inline: 10px;
 }
 
 a{
